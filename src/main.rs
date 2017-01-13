@@ -115,7 +115,7 @@ fn output_help() {
     println!("Usage: dnddice [NUMBER_OF_DICE] [NUMBER_OF_DICE_SIDES]");
     println!("Example: dnddice 2 20         # rolls 2d20's");
     println!("Roll some dice.");
-    println!("  --csv\t\t\toutput in .csv format, use `>' to pipe output to a file.");
+    println!("  --csv\t\t\toutput in .csv format, use `>' to pipe output to a file");
     println!("  --help\t\tdisplay this help and exit");
     println!("  --version\t\toutput version information and exit");
     println!();

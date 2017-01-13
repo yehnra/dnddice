@@ -7,7 +7,7 @@ dnddice is still in development (see TODO's in src/main.rs).
 Usage: dnddice [NUMBER_OF_DICE] [NUMBER_OF_DICE_SIDES]
 Example: dnddice 2 20         # rolls 2d20's
 Roll some dice.
-  --csv                 output in .csv format, use `>' to pipe output to a file.
+  --csv                 output in .csv format, use `>' to pipe output to a file
   --help                display this help and exit
   --version             output version information and exit
 ```

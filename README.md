@@ -1,6 +1,6 @@
 <h1>dnddice</h1>
 <h4>A simple dice-rolling command line program.</h4>
-dnddice is still in development (see TODO's in src/main.rs)
+dnddice is still in development (see TODO's in src/main.rs).
 
 ```
 [dnddice]

@@ -41,7 +41,7 @@ fn main() {
 
 fn roll(dice_quantity: i32, dice_sides: i32, csv: bool) {
     let time_now = now();
-    let current_time = strftime("%A, %B %e - %I:%M:%S%P", &time_now).unwrap();
+    let current_time = strftime("%A, %B %e - %I:%M:%S %P", &time_now).unwrap();
     let mut rng = thread_rng();
     let mut rng_value: i32;
     let mut running_total = 0;

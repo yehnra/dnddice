@@ -1,5 +1,5 @@
-<h1>dnddice</h1>
-<h4>A simple dice-rolling command line program.</h4>
+# dnddice
+### A simple dice-rolling command line program.
 dnddice is still in development (see TODO's in src/main.rs).
 
 ```
@@ -12,7 +12,8 @@ Roll some dice.
   --version             output version information and exit
 ```
 
-<h2>Examples:</h2>
+## Examples:
+
 ```
 # cargo
 $ cargo run -- 3 6          # roll 3x d6
@@ -23,7 +24,8 @@ $ dnddice 5 10              # roll 5x d10
 $ dnddice --csv 6 20        # roll 6x d20, output in .csv format
 ```
 
-<h2>Version and Licensing Info:</h2>
+## Version and Licensing Info:
+
 ```
 [dnddice 0.1.0]
 Copyright (C) 2017 Baerlabs
